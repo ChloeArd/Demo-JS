@@ -41,6 +41,7 @@ for (let paragraphe of elements) {
     paragraphe.style.backgroundColor = "red";
 }
 
-for (let i in elements) {
-    elements[i].style.backgroundColor = "ghostwhite";
+/** for (let i in elements) {
+    elements.item(i).style.backgroundColor = "ghostwhite";
 }
+ */
