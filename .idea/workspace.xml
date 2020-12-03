@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a09b9f8-526e-4f24-b282-4fb8e56c2a62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/styleCreerDesElementsHTML.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/appLesEvenements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesEvenements.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/appCreerDesElementsHTML.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/appCreerDesElementsHTML.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creerDesElementsHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/creerDesElementsHTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,6 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -79,6 +79,9 @@
       <workItem from="1606921178298" duration="41000" />
       <workItem from="1606928879897" duration="11000" />
       <workItem from="1606984673454" duration="5067000" />
+      <workItem from="1606989863792" duration="129000" />
+      <workItem from="1607000104209" duration="945000" />
+      <workItem from="1607003969115" duration="4652000" />
     </task>
     <task id="LOCAL-00001" summary="Demo JavaScript">
       <created>1606731182263</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606985432207</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Demo JavaScript">
+      <created>1606989943268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606989943268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,11 +140,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1280.680@0.0.1536.824" timestamp="1606917791803" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1606985430830">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1606989942452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1280.680@0.0.1536.824" timestamp="1606928882691" />
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1606985430830" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1606989942452" />
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606746193073" />
     <state x="647" y="310" key="Github.ShareDialog" timestamp="1606679215183">
       <screen x="0" y="0" width="1536" height="824" />
@@ -148,12 +158,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606746375281" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606985434227">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606989946252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1280.680@0.0.1536.824" timestamp="1606928885058" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1606985434227" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1606989946252" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606746202734" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1607006946446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1607006946446" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606734081963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
