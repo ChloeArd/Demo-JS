@@ -43,8 +43,12 @@ while (i1 < 10) {
     i1++;
 }
 
-for(let i1 = 0; i1 < 10; i1++) {
-    console.log("i1 vaut: " + i1);
+
+//Mettre le même texte dans tous les span
+let spanTest = document.getElementsByTagName('span')
+
+for(let i1 = 0; i1 < spanTest.length; i1++) {
+        spanTest.item(i1).innerHTML = "blabla";
 }
 
 let elementsFor = document.getElementsByClassName('maClasse'); //Pas besoin du point ! (sauf si querySelector() ou querySelectorAll().)
