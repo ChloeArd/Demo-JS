@@ -70,3 +70,11 @@ function soustraction(nombre1, nombre2) {
 
 let result4 = soustraction(60, 10);
 console.log("Résultat: " + result4);
+
+
+// Génère un nombre aléatoire, dans le paragraphe avec id = "container".
+document.getElementById("container").innerHTML = random().toString();
+
+function random() {
+    return Math.ceil(Math.random() * 100);
+}
