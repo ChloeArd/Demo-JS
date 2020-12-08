@@ -124,3 +124,23 @@ if (a < 5 && b > 6) {
     console.log("A est plus petit que 5 mais pas que, car b est plus grand que 6 !!!! En même temps !!!");
     console.log("Si b avait été plus petit que 6, alors on n'aurait pas pu entrer ici en discothèque");
 }
+
+
+
+//Exemples
+
+let name = prompt("Entre votre nom, sans majuscule ni accent");
+
+switch (name) {
+    case "chloe":
+        alert("Bonjour, " + name);
+        break;
+    case "Patrick":
+        alert("Bonjour, " + name);
+        break;
+    case "Audrey":
+        alert("Bonjour, " + name);
+        break;
+    default:
+        alert("Bonjour, inconnu");
+}
