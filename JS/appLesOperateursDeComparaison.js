@@ -141,3 +141,14 @@ console.log("--OPERATEUR <=");
 let result34 = 2 <= 3; // TRUE
 let result35 = 2 <= 2; // TRUE
 let result36 = 3 <= 2; // FALSE
+
+//Exemples:
+
+let search = 38;
+for(let x = 0; x <=100; x++) {
+    if (x === search) {
+        console.log("nombre trouvé " + search);
+        break;
+    }
+    console.log("x vaut " + x);
+}
