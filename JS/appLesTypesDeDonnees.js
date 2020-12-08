@@ -71,3 +71,12 @@ let testNull = null; //Uniquement null, absence de valeur !!
  */
 let testUndefined; // Celui la est identique a celui d'en bas.
 let testUndefined2 = undefined;
+
+
+
+//Exemples
+let bla1;
+bla1 = 2;
+console.log(typeof bla1);
+bla1 = "2"
+console.log(typeof bla1);

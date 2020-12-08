@@ -142,3 +142,50 @@ let concat = "December: " + ch1 + ch2 + ch3;
 let concat2 = `December: ${ch1} ${ch2} ${ch3}`; // Date de l'ES6 (Ecmascript version 6, pas du tout obligatoire).
 console.log(concat);
 console.log(concat2);
+
+
+//Exemples
+let nb1 = prompt("entrez un chiffre");
+let nb2 = prompt("Entrez un chiffre");
+alert(parseInt(nb1) + parseInt(nb2));
+
+let nb3 = prompt("entrez un chiffre");
+let nb4 = prompt("entrez un chiffre");
+alert((parseInt(nb1) * parseInt(nb4)) / (parseInt(nb2) - parseInt(nb3) ** 2));
+
+alert(" nb2 += nb4 = " + (nb2 += nb4));
+
+nb1 += 2;
+console.log(nb1);
+
+let chaine1 = "bonjour, ";
+let chaine2 = prompt("Entre votre prénom");
+alert(chaine1 + chaine2);
+
+let input1 = document.getElementById("input1");
+let button = document.getElementById("button");
+
+function entrer() {
+    button = 12;
+    input1.value = button;
+}
+
+button.addEventListener("click", entrer);
+
+let button2 = document.getElementById("button2");
+
+function entrer2() {
+    button2 = 3;
+    input1.value = button2
+}
+
+button2.addEventListener("click", entrer2);
+
+let resultat = document.getElementById("result");
+
+function calculer() {
+    button += button2
+    input1.value = button;
+}
+
+resultat.addEventListener("click", calculer);

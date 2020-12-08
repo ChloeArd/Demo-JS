@@ -54,3 +54,14 @@ console.log(PI)
 console.log(PI)
 console.log(PI)
 
+
+let bonjour;
+bonjour = "bonjour, vous allez bien?"
+console.log(bonjour);
+
+
+let nom = prompt("Entrez votre nom?");
+alert("Je m'appelle " + nom);
+
+let result = 2 * PI;
+console.log(result);

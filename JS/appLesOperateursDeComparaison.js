@@ -100,7 +100,7 @@ console.log("Result24 vaut: " + result24 + " ==> \"mon texte pour tester\" !== \
  * > teste que la valeur de gauche est plus grande que la valeur de droite !!!!!
  * Ici, on parle bien de la valeur.
  */
-let chaineDemo = "Hello World" //Les espaces comptes
+let chaineDemo = "Hello World" //Les espaces comptes !!
 
 console.log("--OPERATEUR >");
 let result25 = 5 > 6; // Pas de surprise, le résultat est FALSE car 5 est bien plus petit que 6
