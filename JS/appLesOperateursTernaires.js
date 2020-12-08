@@ -23,5 +23,15 @@ a = 2;
 message = (a === 1) ? "a est égal à 1" : "a est différent de 1"; //ICI, c'est faux --> ce qui est retourné est après les :
 console.log(message);
 
+let c = 21;
+let d = 5;
+let resultat = (c === 28 && d <= 2) ? (c + d) : (c * d);
+console.log("Le résultat est " + resultat);
+
+let x = 1;
+let y = 15;
+
+let paragraph = document.getElementById("introduction");
+paragraph.innerHTML = (x === 1 && y <= 15 ) ? (x + y).toString() : (x - y).toString();
 
 

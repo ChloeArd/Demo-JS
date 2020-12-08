@@ -37,8 +37,8 @@ console.log(left);
 cssStyle.setProperty('left', '4000px'); //On remplace la valeur calculée par le navigateur par notre propre valeur !
 console.log(cssStyle.getPropertyValue('left')); // On doit récupérer la valeur recalculée.
 
-
 /**
  *Récupérer plusieurs éléments
  */
 
+//Exemples
