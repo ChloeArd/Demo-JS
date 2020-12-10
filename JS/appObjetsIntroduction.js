@@ -202,3 +202,116 @@ console.log("indexOf: position du 'World' est " + position);
 //Sensible à la casse, 'world' renverra -1 car la chaine ne sera pas trouvée !
 position = chaine2.indexOf('world');
 console.log("indexOf: position du 'world' est " + position + ", c'est à dire, qu'il ne l'a pas trouvé !");
+
+/**
+ * lastIndexOf()
+ * fonctionne exactement de la même manière que indexOf() sauf qu'elle renvoie l'index de la dernière occurence
+ * ou -1 si rien n'a été trouvé !
+ */
+
+//Renvoie le dernier index (positon) du caractère 'l'.
+let position2 = chaine2.lastIndexOf("l");
+console.log("lastIndexOf: position du dernier l dans la chaine est " + position2);
+
+//Sensible à la casse, "world" renverra -1 car la chaine ne sera pas trouvée !
+position2 = chaine2.lastIndexOf('coucou');
+console.log("lastIndexOf: position du 'coucou' est " + position2 + ", il n'existe pas !");
+
+/**
+ * slice()
+ * extrait une section d'une chaine de caractères et la retourne comme une nouvelle chaine de caractères.
+ * La chaine de départ n'est pas modifiée.
+ * Params: 1 -> La position de départ
+ *         2 optionnel ->  La position où s'arrêter
+ * Return: retourne une nouvelle chaine de caractères
+ */
+
+//Renvoie une nouvelle chiane à partir de l'index 5.
+let nouvelle = chaine2.slice(6); //World !
+console.log("slice: " + nouvelle);
+
+//Avec début et index de fin.
+nouvelle = chaine2.slice(6, 11); // World
+console.log("slice: " + nouvelle);
+
+//Avec index négatif, démarre à la fin de la chaine
+nouvelle = chaine2.slice(-3); // d !
+console.log("slice :" + nouvelle);
+
+nouvelle = chaine2.slice(-7, -2); // World
+console.log("slice :" + nouvelle);
+
+/**
+ * replace()
+ * permet de rechercher une chaine (caractère) dans une chaine de caractères et de la remplacer par une autre.
+ * Ne remplace que la 1ère trouvée, s'il en existe plusieurs, il en existe d'autres méthodes.
+ * Params: 1 -> chaine ou carcatère à rechercher
+ *         2 -> chaine ou carcatètre avec laquelle / lequel on la rmeplacer param1 si trouvé
+ * Return:  renvoie une nouvelle chaine de caractères, ne modifie pas la chaine qui invoque la méthode !
+ */
+
+let nouvelle2 = chaine2.replace('World', 'Guys');
+console.log("replace: remplace World par Guys -> " + nouvelle2);
+
+/**
+ * toLowerCase()
+ * retourne une chaine de caractères en minuscules !
+ * Params: aucun
+ * Return: Nouvelle chaine de caractère en minuscule.
+ */
+
+nouvelle2 = chaine2.toLowerCase();
+console.log("toLowerCase: Hello World ! devient -> " + nouvelle2);
+
+/**
+ * toUpperCase()
+ * retourne une chaine de caractères en majuscules !
+ * Params: aucun
+ * Return: Nouvelle chaine de caractère en majuscules.
+ */
+
+nouvelle2 = chaine2.toUpperCase();
+console.log("toUpperCase: Hello World ! devient -> " + nouvelle2);
+
+/**
+ * trim()
+ * supprime les espaces ou les blancs en début et en fin de chaine.
+ * Pratique quand on veut nettoyer des données pour ensuite effectuer des opérations dessus (formulaires ou API).
+ * Params: aucun
+ * Return: une nouvelle chaine de carcatères
+ */
+
+let chaine3 = " Hello World ! "
+console.log("Sans trim: Longueur de la 1ère chaine: " + chaine3.length)
+
+nouvelle2 = chaine3.trim();
+console.log("Avec trim: Longueur de la 1ère chaine: " + nouvelle2.length)
+
+/**
+ * split()
+ * permet de diviser une chaine de caractères à partir d'un séparateur pour fournir un tableau de sous-chaines.
+ * Params: Séparateur sous forme de chaines de caractères
+ * Return: Un tableau contenant les différents mots de la chaine de caractères
+ */
+
+//Split avec les espaces comme séparateurs sur chaque mots, caractères.
+let tableau = chaine2.split(" ");
+console.log("Split: " + tableau);
+
+//Split avec les espaces comme séparateurs sur chaque lettres, caractères.
+let tableau2 = chaine2.split("");
+console.log("Split: " + tableau2);
+
+/**
+ * Chaines commes des tableaux
+ * traiter une chaine de caractères comme s'il s'agissait d'un tableau
+ */
+
+//Affichage du 1er carcatère de la chaine dans notre console.
+console.log("1er caractère de la chaine -> " + chaine2[0]);
+
+//On peut également traiter une chaine de caractères dans une boucle, tout comme vous le feriez pour
+// un tableau ou pour une collection d'éléments HTML réupérée en JS.
+for (let i = 0; i < chaine2.length; i++) {
+    console.log("Toute la chaine de caractères -> " + chaine2[i]);
+}
