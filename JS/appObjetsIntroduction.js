@@ -182,7 +182,7 @@ console.log("substring: de 6 à la fin -> " + nouvelleChaine);
 
 //Récupère "Hello".
 let nouvelleChaine2 = chaine2.substr(0, 8);
-console.log("substr: de 0 à 8 -> " +  nouvelleChaine2); //nouvelle chaine à partir de l'index 0 jusqu'à l'index 5 (non compris).
+console.log("substr: de 0 à 8 -> " +  nouvelleChaine2); //nouvelle chaine à partir de l'index 0 jusqu'à l'index 8 (non compris).
 
 nouvelleChaine2 = chaine2.substr(6); //nouvelle chaine à partir de l'index 6 jusqu'à la fin !
 console.log("substr: de 6 à la fin -> " + nouvelleChaine2);
