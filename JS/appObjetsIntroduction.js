@@ -51,7 +51,7 @@ let element = document.getElementsByTagName("p");
 element.innerHTML = "Je change de valeur de cette propriété";
 
 /****
- ** L'objet String.
+ **** L'objet String.
  ****/
 
 /**
