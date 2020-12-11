@@ -70,7 +70,7 @@ console.log(p1.innerHTML.length);// vaut 0
 console.log(p2.innerHTML.length);// vaut 0
 
 //On peut également utiliser length sur une chaine directement !
-console.log("Hello".length); //Affiche 5 en console
+console.log(chaine.length); //Affiche 5 en console
 
 /**
  * includes()
