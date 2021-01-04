@@ -78,7 +78,7 @@ let value3 = "20px457px";
 let value4 = "px25px258";
 
 //Peut également être utilisée sans spécifier Number.
-console.log("parseInt: " + Number.parseInt(value1)); // 54
+console.log("parseInt: " + Number.parseInt(value1)); // 287
 
 //Ne tient pas compte d'autre chose que les nombres.
 console.log("parseInt: " + Number.parseInt(value2)); //200
